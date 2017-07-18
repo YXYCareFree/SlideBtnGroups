@@ -15,6 +15,7 @@
 		9AC244EC1F178083001D1163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC244EA1F178083001D1163 /* LaunchScreen.storyboard */; };
 		9AC244F71F178083001D1163 /* SlideBtnGroupsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC244F61F178083001D1163 /* SlideBtnGroupsTests.m */; };
 		9AC245021F178083001D1163 /* SlideBtnGroupsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC245011F178083001D1163 /* SlideBtnGroupsUITests.m */; };
+		9AC245111F1780D9001D1163 /* YXYSlideTitleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC245101F1780D9001D1163 /* YXYSlideTitleGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9AC244FD1F178083001D1163 /* SlideBtnGroupsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideBtnGroupsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC245011F178083001D1163 /* SlideBtnGroupsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideBtnGroupsUITests.m; sourceTree = "<group>"; };
 		9AC245031F178083001D1163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC2450F1F1780D9001D1163 /* YXYSlideTitleGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXYSlideTitleGroup.h; sourceTree = "<group>"; };
+		9AC245101F1780D9001D1163 /* YXYSlideTitleGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXYSlideTitleGroup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		9AC244D01F178083001D1163 = {
 			isa = PBXGroup;
 			children = (
+				9AC2450F1F1780D9001D1163 /* YXYSlideTitleGroup.h */,
+				9AC245101F1780D9001D1163 /* YXYSlideTitleGroup.m */,
 				9AC244DB1F178083001D1163 /* SlideBtnGroups */,
 				9AC244F51F178083001D1163 /* SlideBtnGroupsTests */,
 				9AC245001F178083001D1163 /* SlideBtnGroupsUITests */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					9AC244D81F178083001D1163 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = D8399XH2VW;
 						ProvisioningStyle = Automatic;
 					};
 					9AC244F11F178083001D1163 = {
@@ -274,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AC244E41F178083001D1163 /* ViewController.m in Sources */,
+				9AC245111F1780D9001D1163 /* YXYSlideTitleGroup.m in Sources */,
 				9AC244E11F178083001D1163 /* AppDelegate.m in Sources */,
 				9AC244DE1F178083001D1163 /* main.m in Sources */,
 			);
@@ -426,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D8399XH2VW;
 				INFOPLIST_FILE = SlideBtnGroups/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yangxiaoyu.SlideBtnGroups;
@@ -437,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D8399XH2VW;
 				INFOPLIST_FILE = SlideBtnGroups/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yangxiaoyu.SlideBtnGroups;
@@ -509,6 +518,7 @@
 				9AC245081F178083001D1163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AC245091F178083001D1163 /* Build configuration list for PBXNativeTarget "SlideBtnGroupsTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +527,7 @@
 				9AC2450B1F178083001D1163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AC2450C1F178083001D1163 /* Build configuration list for PBXNativeTarget "SlideBtnGroupsUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +536,7 @@
 				9AC2450E1F178083001D1163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
